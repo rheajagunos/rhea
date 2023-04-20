@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #34b7a7;
+  color:#51cdbe ;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #acc8fc;
 }
 
 #preloader:before {
@@ -132,6 +132,9 @@ h6 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+#header a.nav:hover{
+  color: palevioletred;
+}
 
 #header .logo a {
   color: #222222;
@@ -164,7 +167,7 @@ h6 {
 }
 
 .header-social-links a:hover {
-  color: #34b7a7;
+  color: palevioletred;
 }
 
 /*--------------------------------------------------------------
@@ -218,7 +221,7 @@ h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #34b7a7;
+  background-color: palevioletred;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -273,7 +276,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #34b7a7;
+  color: palevioletred;
 }
 
 .navbar .dropdown:hover>ul {
@@ -804,6 +807,22 @@ section {
   position: relative;
 }
 
+.box-container .box{
+  
+  border-left: .2rem solid var(--main-color);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem; 
+}
+
+.box-container .box .resume-item{
+  background:#f796be;
+  padding: 5%;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  border-radius: .5rem;
+  
+}
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
@@ -835,21 +854,7 @@ section {
   padding-bottom: 0;
 }
 
-.resume .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
-  border: 2px solid #34b7a7;
-}
-
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
+.resume -------------------------*/
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -1305,7 +1310,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #e9e8e6;
+  background: #e9e6e9;
   padding: 30px 0;
   color: #222222;
   font-size: 14px;
