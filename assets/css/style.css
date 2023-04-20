@@ -617,6 +617,39 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.about .hire button[type=submit] {
+  background: #f796be;
+  border: 0;
+  padding: 10px 30px 12px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px; 
+  margin-top: 5%;
+  color:#111;
+  display:inline-flex;
+}
+
+.about .hire button[type=submit]:hover{
+  background: #3dc8b7;
+}
+
+.about .cv button[type=submit]{
+  background: #f796be;
+  border: 0;
+  padding: 10px 30px 12px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px; 
+  margin-top: 5%;
+  color:#111;
+  display:block;
+  /*padding: 10px 0;
+  margin: 0 0 6px 0;*/
+}
+
+.about .cv button[type=submit]:hover{
+  background: #3dc8b7;
+}
 
 /*--------------------------------------------------------------
 # Skills
