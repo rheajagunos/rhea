@@ -807,21 +807,7 @@ section {
   position: relative;
 }
 
-.box-container .box{
-  
-  border-left: .2rem solid var(--main-color);
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem; 
-}
 
-.box-container .box .resume-item{
-  background:#f796be;
-  padding: 5%;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-  border-radius: .5rem;
-  
-}
 
 .resume .resume-item h4 {
   line-height: 18px;
@@ -854,7 +840,17 @@ section {
   padding-bottom: 0;
 }
 
-.resume -------------------------*/
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #34b7a7;
+}/*# Services -------------------------*/
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
