@@ -12,6 +12,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background: #34b7a7;
+   
 }
 
 a {
@@ -20,7 +22,7 @@ a {
 }
 
 a:hover {
-  color: #51cdbe;
+  color: palevioletred;
   text-decoration: none;
 }
 
@@ -90,7 +92,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #34b7a7;
+  background: palevioletred;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -169,6 +171,7 @@ h6 {
 .header-social-links a:hover {
   color: palevioletred;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -465,7 +468,7 @@ h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #34b7a7;
+  background: palevioletred;
 }
 
 #hero .btn-about:hover {
@@ -531,7 +534,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #34b7a7;
+  background: palevioletred;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -620,7 +623,7 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-.about .hire button[type=submit] {
+/*.about .hire button[type=submit] {
   background: #f796be;
   border: 0;
   padding: 10px 30px 12px 30px;
@@ -634,10 +637,10 @@ section {
 
 .about .hire button[type=submit]:hover{
   background: #3dc8b7;
-}
+}*/
 
 .about .cv button[type=submit]{
-  background: #f796be;
+  background: palevioletred;
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
@@ -651,7 +654,7 @@ section {
 }
 
 .about .cv button[type=submit]:hover{
-  background: #3dc8b7;
+  background: lightpink;
 }
 
 /*--------------------------------------------------------------
@@ -687,7 +690,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #34b7a7;
+  background-color:palevioletred;
 }
 
 /*--------------------------------------------------------------
@@ -803,11 +806,14 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #34b7a7;
+  border-left: 2px solid palevioletred;
   position: relative;
 }
 
-
+.card{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  border-radius: 10%;
+}
 
 .resume .resume-item h4 {
   line-height: 18px;
@@ -849,7 +855,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #34b7a7;
+  border: 2px solid palevioletred;
 }/*# Services -------------------------*/
 .services .icon-box {
   text-align: center;
@@ -1007,7 +1013,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #34b7a7;
+  background: palevioletred;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1209,7 +1215,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #34b7a7;
+  background: palevioletred;
   color: #fff;
 }
 
@@ -1268,7 +1274,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #34b7a7;
+  border-color: palevioletred;
 }
 
 .contact .php-email-form input {
@@ -1280,7 +1286,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #34b7a7;
+  background: palevioletred;
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
