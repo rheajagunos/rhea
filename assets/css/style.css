@@ -432,11 +432,11 @@ h6 {
 }
 
 #hero .container {
-  padding-top: 80px;
+  padding-top: 70px;
   position: relative;
 }
 
-@media (max-width: 995px) {
+@media (max-width: 992px) {
   #hero .container {
     padding-top: 58px;
   }
@@ -481,7 +481,7 @@ h6 {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
   #hero:before {
     content: "";
     background: rgba(255, 255, 255, 0.8);
