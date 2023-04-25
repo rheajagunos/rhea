@@ -395,7 +395,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  /*background: #fff;*/
+  background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -432,11 +432,11 @@ h6 {
 }
 
 #hero .container {
-  padding-top: 75px;
+  padding-top: 80px;
   position: relative;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 995px) {
   #hero .container {
     padding-top: 58px;
   }
