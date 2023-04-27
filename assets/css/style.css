@@ -434,11 +434,13 @@ h6 {
 #hero .container {
   padding-top: 70px;
   position: relative;
+  overflow: hidden;
 }
 
 @media (max-width: 992px) {
   #hero .container {
     padding-top: 58px;
+    overflow: hidden;
   }
 }
 
