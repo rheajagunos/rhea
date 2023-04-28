@@ -427,9 +427,10 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/rheaa.png") top right;
+  background: url("../img/home_rhea.png") top right;
   background-size: cover;
 }
+
 
 #hero .container {
   padding-top: 70px;
@@ -449,13 +450,15 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
+  color: #f865b6;
+  
 }
 
 #hero h2 {
-  color: #6f6f6f;
+  color: #f865b6;
   margin: 10px 0 0 0;
   font-size: 22px;
+  
 }
 
 #hero .btn-about {
@@ -701,16 +704,16 @@ section {
   color: orange;
 }
 .progress .css .skill{
-  color: red;
+  color: rgb(240, 232, 128);
 }
 .progress .canva .skill{
   color: violet;
 }
 .progress .office .skill{
-  color: blue;
+  color: rgb(163, 163, 241);
 }
 .progress .wordpress .skill{
-  color: green;
+  color: rgb(98, 245, 98);
 }
 
 .progress .adobe .skill{
