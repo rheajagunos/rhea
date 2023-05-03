@@ -1102,12 +1102,16 @@ section {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
+  
+}
+.portfolio .portfolio-wrap .portfolio-info h3 {
+  margin-top: 15%;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
-  text-transform: uppercase;
+ 
   padding: 0;
   margin: 0;
   font-style: italic;
