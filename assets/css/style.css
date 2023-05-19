@@ -680,7 +680,7 @@ section {
   margin: 0 0 6px 0;*/
 }
 
-.about .cv button[type=submit]:hover{
+.about .cl button[type=submit]:hover{
   background: lightpink;
 }
 /*--------------------------------------------------------------
