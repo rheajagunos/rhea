@@ -467,11 +467,12 @@ h6 {
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 1px;
-  display: inline-block;
+  display:inline-block;
   padding: 12px 40px;
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
+  margin-right: 20px;
   color: #fff;
   background: palevioletred;
   
@@ -656,7 +657,7 @@ section {
   border-radius: 50px; 
   margin-top: 5%;
   color:#111;
-  display:block;
+  display:inline-flexbox;
   /*padding: 10px 0;
   margin: 0 0 6px 0;*/
 }
@@ -665,6 +666,23 @@ section {
   background: lightpink;
 }
 
+.about .cl button[type=submit]{
+  background: palevioletred;
+  border: 0;
+  padding: 10px 30px 12px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px; 
+  margin-top: 5%;
+  color:#111;
+  
+  /*padding: 10px 0;
+  margin: 0 0 6px 0;*/
+}
+
+.about .cv button[type=submit]:hover{
+  background: lightpink;
+}
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
